@@ -37,11 +37,8 @@ Berikut adalah detail fungsionalitas sistem yang telah diimplementasikan:
 Aplikasi memiliki gerbang masuk (Login) yang membedakan hak akses antara **Admin** dan **User**. 
 - **Admin**: Memiliki kontrol penuh atas stok dan inventaris.
 - **User**: Hanya dapat melihat katalog dan melakukan pemesanan.
+<img src="web10/form.PNG" width="700"> <p>
 
-> **[TEMPATKAN GAMBAR: Screenshot Halaman Login dengan Tema Start Game]**
-> ![Halaman Login](link_gambar_login_kamu)
-
----
 
 ### 2. Dashboard Admin (Manajemen Inventaris)
 Halaman khusus Admin yang didesain menggunakan komponen **Table**. Fitur ini memungkinkan Admin untuk mengelola data dengan cepat.
@@ -49,10 +46,7 @@ Halaman khusus Admin yang didesain menggunakan komponen **Table**. Fitur ini mem
 - **Ubah Data**: Memperbarui harga, jenis, atau status unit (tersedia/disewa).
 - **Hapus Data**: Menghapus unit yang sudah tidak layak pakai atau terjual.
 
-> **[TEMPATKAN GAMBAR: Screenshot Dashboard Admin Versi Tabel]**
-> ![Dashboard Admin](link_gambar_admin_kamu)
-
----
+<img src="web10/form.PNG" width="700"> <p>
 
 ### 3. Katalog Katalog User (Responsive Cards)
 Halaman bagi Pelanggan yang menampilkan daftar unit dalam bentuk **Card**.
