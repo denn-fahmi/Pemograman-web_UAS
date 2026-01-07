@@ -87,6 +87,8 @@ Sistem ini memangkas proses transaksi yang rumit dengan menghubungkan pelanggan 
 3. **Interaksi**: User mencari unit, Admin mengelola data di database MySQL.
 4. **Output**: Informasi ditampilkan melalui template `header.php` dan `footer.php`.
 
+### Video Demonstrasi di Youtube: https://youtu.be/2642EbqIIN0?si=dttJl-YRnj772_c7
+
 ---
 
 ## Kebutuhan Sistem (Prerequisites)
