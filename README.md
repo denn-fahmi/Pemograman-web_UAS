@@ -34,7 +34,7 @@ rental-ps/
 ├── logout.php                    # Proses pembersihan session
 └── delete.php                    # Proses penghapusan data
 ```
-[File-Vscode](rental-ps).
+[File-Vscode](rental-ps/).
 Sistem ini dirancang untuk mendigitalisasi proses manajemen unit PlayStation dan mempermudah pelanggan dalam melakukan pemesanan melalui antarmuka web yang modern dan responsif.
 
 ## Penjelasan Fitur Utama
