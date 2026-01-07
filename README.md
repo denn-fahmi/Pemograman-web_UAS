@@ -4,11 +4,13 @@ Kelas: TI.24.A5 <p>
 Mata Kuliah: Pemograman Web <p>
 # Pemograman-web_UAS
 # 🎮 Sistem Informasi Manajemen Rental PS Fahmi
-User: Username : user_pelanggan <p>
-      Password : user123 <p>
+Pelanggan: <p>
+Username : user_pelanggan <p>
+Password : user123 <p>
 _____________________________________________________________________________________________________________________________________________________________________________________________________
-Admin: Username: admin_rental <p>
-      Password : admin123 <p>
+Admin: <p>
+Username: admin_rental <p>
+Password : admin123 <p>
 ```
 rental-ps/
 ├── app/
