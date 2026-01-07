@@ -1,6 +1,7 @@
 Nama : Den Fahmi Satria <p>
 Nim  : 312410523 <p>
 Kelas: TI.24.A5 <p>
+Mata Kuliah: Pemograman Web <p>
 # Pemograman-web_UAS
 # 🎮 Sistem Informasi Manajemen Rental PS Fahmi
 ```
