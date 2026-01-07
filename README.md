@@ -1,14 +1,34 @@
-Nama : Den Fahmi Satria
-Nim  : 312410523
-Kelas: TI.24.A5
+Nama : Den Fahmi Satria <p>
+Nim  : 312410523 <p>
+Kelas: TI.24.A5 <p>
 # Pemograman-web_UAS
-# 🎮 Sistem Informasi Manajemen Rental PS Pelita
-
+# 🎮 Sistem Informasi Manajemen Rental PS Fahmi
+```
+rental-ps/
+├── app/
+│   └── models/
+│       ├── Auth.php              # Logika autentikasi login
+│       └── PlaystationModel.php  # Logika CRUD data PlayStation
+├── config/
+│   └── database.php              # Pengaturan koneksi database MySQL
+├── public/
+│   └── img/                      # Penyimpanan aset gambar unit PS
+├── views/
+│   ├── layout/
+│   │   ├── header.php            # Template bagian atas & CSS Gaming
+│   │   └── footer.php            # Template bagian bawah & JS Animasi
+│   ├── ps/
+│   │   ├── index.php             # Tampilan utama (Admin: Table, User: Card)
+│   │   ├── tambah.php            # Form tambah unit (Admin)
+│   │   └── ubah.php              # Form edit unit (Admin)
+│   └── login.php                 # Halaman utama login
+├── index.php                     # Front Controller & Routing Utama
+├── logout.php                    # Proses pembersihan session
+└── delete.php                    # Proses penghapusan data
+```
 Sistem ini dirancang untuk mendigitalisasi proses manajemen unit PlayStation dan mempermudah pelanggan dalam melakukan pemesanan melalui antarmuka web yang modern dan responsif.
 
----
-
-## 🚀 Penjelasan Fitur Utama
+## Penjelasan Fitur Utama
 
 Berikut adalah detail fungsionalitas sistem yang telah diimplementasikan:
 
@@ -63,10 +83,7 @@ Sistem ini memangkas proses transaksi yang rumit dengan menghubungkan pelanggan 
 
 ---
 
-## 🛠️ Alur Kerja Sistem (Workflow)
-
-
-
+## Alur Kerja Sistem (Workflow)
 1. **Login**: Pengguna masuk ke sistem.
 2. **Routing**: `index.php` mengarahkan pengguna ke dashboard sesuai role.
 3. **Interaksi**: User mencari unit, Admin mengelola data di database MySQL.
@@ -74,7 +91,7 @@ Sistem ini memangkas proses transaksi yang rumit dengan menghubungkan pelanggan 
 
 ---
 
-## ⚙️ Kebutuhan Sistem (Prerequisites)
+## Kebutuhan Sistem (Prerequisites)
 - PHP >= 8.0
 - MySQL Database
 - Web Server (XAMPP / Laragon)
