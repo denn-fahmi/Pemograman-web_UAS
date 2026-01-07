@@ -37,7 +37,7 @@ Berikut adalah detail fungsionalitas sistem yang telah diimplementasikan:
 Aplikasi memiliki gerbang masuk (Login) yang membedakan hak akses antara **Admin** dan **User**. 
 - **Admin**: Memiliki kontrol penuh atas stok dan inventaris.
 - **User**: Hanya dapat melihat katalog dan melakukan pemesanan.
-<img src="web10/form.PNG" width="700"> <p>
+<img src="Uas-web/Login.PNG" width="700"> <p>
 
 
 ### 2. Dashboard Admin (Manajemen Inventaris)
@@ -45,38 +45,28 @@ Halaman khusus Admin yang didesain menggunakan komponen **Table**. Fitur ini mem
 - **Tambah Unit**: Form input untuk menambah koleksi PS lengkap dengan fitur upload gambar.
 - **Ubah Data**: Memperbarui harga, jenis, atau status unit (tersedia/disewa).
 - **Hapus Data**: Menghapus unit yang sudah tidak layak pakai atau terjual.
+<img src="Uas-web/menu-admin.PNG" width="700"> <p>
 
-<img src="web10/form.PNG" width="700"> <p>
 
 ### 3. Katalog Katalog User (Responsive Cards)
 Halaman bagi Pelanggan yang menampilkan daftar unit dalam bentuk **Card**.
 - **Visual Menarik**: Gambar unit tampil besar untuk menarik minat penyewa.
 - **Status Real-time**: Label status otomatis berubah warna (Hijau untuk Tersedia, Merah untuk Disewa).
 - **Responsivitas**: Tampilan otomatis menyesuaikan saat dibuka di handphone (Mobile Friendly).
+<img src="Uas-web/katalog.PNG" width="700"> <p>
 
-> **[TEMPATKAN GAMBAR: Screenshot Katalog User Versi Card]**
-> ![Katalog User](link_gambar_user_kamu)
-
----
 
 ### 4. Filter Pencarian Canggih
 Fitur untuk membantu pengguna menemukan unit spesifik tanpa harus mencari satu per satu.
 - **Pencarian Nama**: Mencari berdasarkan merk atau nama unit.
 - **Filter Kategori**: Menyaring daftar berdasarkan jenis konsol (PS3, PS4, atau PS5).
-
-> **[TEMPATKAN GAMBAR: Screenshot Fitur Filter & Search yang sedang digunakan]**
-> ![Fitur Filter](link_gambar_filter_kamu)
-
----
+<img src="Uas-web/pencarian.PNG" width="700"> <p>
 
 ### 5. Integrasi Pemesanan WhatsApp
 Sistem ini memangkas proses transaksi yang rumit dengan menghubungkan pelanggan langsung ke Admin via WhatsApp.
 - **Pesan Otomatis**: Saat tombol "Sewa Sekarang" diklik, sistem menyusun teks berisi nama unit, jenis, dan harga secara otomatis.
+<img src="Uas-web/sewa.PNG" width="700"> <p>
 
-> **[TEMPATKAN GAMBAR: Screenshot Tampilan Chat WhatsApp yang berisi pesan otomatis dari sistem]**
-> ![Integrasi WA](link_gambar_wa_kamu)
-
----
 
 ## Alur Kerja Sistem (Workflow)
 1. **Login**: Pengguna masuk ke sistem.
