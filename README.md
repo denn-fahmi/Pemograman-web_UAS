@@ -42,13 +42,16 @@ Aplikasi memiliki gerbang masuk (Login) yang membedakan hak akses antara **Admin
 
 ### 2. Dashboard Admin (Manajemen Inventaris)
 Halaman khusus Admin yang didesain menggunakan komponen **Table**. Fitur ini memungkinkan Admin untuk mengelola data dengan cepat.
-- **Tambah Unit**: Form input untuk menambah koleksi PS lengkap dengan fitur upload gambar.
-- **Ubah Data**: Memperbarui harga, jenis, atau status unit (tersedia/disewa).
-- **Hapus Data**: Menghapus unit yang sudah tidak layak pakai atau terjual.
 <img src="Uas_web/menu-admin.PNG" width="700"> <p>
+- **Tambah Unit**: Form input untuk menambah koleksi PS lengkap dengan fitur upload gambar.
+  <img src="Uas_web/tambah.PNG" width="700"> <p>
+- **Ubah Data**: Memperbarui harga, jenis, atau status unit (tersedia/disewa).
+  <img src="Uas_web/ubah.PNG" width="700"> <p>
+- **Hapus Data**: Menghapus unit yang sudah tidak layak pakai atau terjual.
+<img src="Uas_web/hapus.PNG" width="700"> <p>
 
 
-### 3. Katalog Katalog User (Responsive Cards)
+### 3. Katalog User (Responsive Cards)
 Halaman bagi Pelanggan yang menampilkan daftar unit dalam bentuk **Card**.
 - **Visual Menarik**: Gambar unit tampil besar untuk menarik minat penyewa.
 - **Status Real-time**: Label status otomatis berubah warna (Hijau untuk Tersedia, Merah untuk Disewa).
