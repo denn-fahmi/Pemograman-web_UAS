@@ -12,7 +12,7 @@ Admin: <p>
 Username: admin_rental <p>
 Password : admin123 <p>
 [File-Vscode](rental-ps/). <p>
-[File-Database](db_rental_pd.sql). <p>
+[File-Database](db_rental_ps.sql). <p>
 ```
 rental-ps/
 ├── app/
