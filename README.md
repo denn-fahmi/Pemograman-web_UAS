@@ -8,7 +8,8 @@ Pelanggan: <p>
 Username : user_pelanggan <p>
 Password : user123 <p>
 _____________________________________________________________________________________________________________________________________________________________________________________________________
-Web Hosting Test: https://rental-ps.rf.gd/ <p>
+## Web Hosting Test: 
+https://rental-ps.rf.gd/ <p>
 Admin: <p>
 Username: admin_rental <p>
 Password : admin123 <p>
